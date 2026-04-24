@@ -1,2 +1,41 @@
-*.agdai
-MAlonzo/**
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DeepFace downloaded model weights (VERY IMPORTANT)
+.deepface/
+
+# Generated files
+capture.jpg
+Attendance.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Large model files
+*.h5
+*.pkl
+
+# Optional user images (if you don't want personal photos public)
+faces/
